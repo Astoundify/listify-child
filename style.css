@@ -1,5 +1,5 @@
 /*
-Theme Name: Listify - Powered by FourSquare
+Theme Name: Listify - Child Theme 
 Theme URI: http://astoundify.com/themes/listify
 Author: Astoundify
 Author URI: http://astoundify.com
@@ -12,44 +12,3 @@ Domain Path: /languages/
 Tags: white, two-columns, one-column, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready
 Template: listify
 */
-
-.button.listify-foursquare-start-import {
-	text-align: center;
-	display: block;
-	vertical-align: middle;
-}
-
-.button.listify-foursquare-start-import.importing {
-	background: #0cbadf;
-	line-height: 1;
-}
-
-.listify-foursquare-start-import:before {
-	font-size: 30px;
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 10px;
-}
-
-.listify-foursquare-progress,
-.listify-foursquare-importing .checked-in {
-	margin-top: 2em;
-	display: none;
-}
-
-.entry-content .listify-foursquare-importing h3 {
-	margin-top: 0;
-}
-
-.listify-foursquare-importing p:last-of-type {
-	margin-bottom: 0;
-}
-
-.job_listing-rating-count,
-.template-home .homepage-cover.has-map .job_listings {
-	display: none !important;
-}
-
-body.template-home .homepage-cover.has-map .job_listings-map {
-	height: 450px;
-}
